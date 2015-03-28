@@ -1,4 +1,5 @@
 <?php
+include 'SDKRuntimeException.php';
 class Weixinpay{
     //=======【基本信息设置】=====================================
 	//微信公众号身份的唯一标识。审核通过后，在微信发送的邮件中查看
